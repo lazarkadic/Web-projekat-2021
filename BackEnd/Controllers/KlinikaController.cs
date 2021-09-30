@@ -198,6 +198,5 @@ namespace BackEnd.Controllers
 
         #endregion
 
-        // Mogao bi da se izbaci lekar da se ne bi komplikovalo mnogo ovo sranje...
     }
 }

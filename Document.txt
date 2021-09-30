@@ -1,0 +1,5 @@
+Kreirana je WEB aplikacija sa ciljem monitoringa klinickog centra. 
+Postoji veci broj klinika, pri cemu svaka ima naziv klinike i maksimalan broj soba koje moze da ima.
+Unutar svake klinike moguce je dodavanje soba sa odgovarajucim rednim brojem i kapacitetom kreveta po sobi.
+Svaka soba prima pacijente do svog maksimalnog kapaciteta kreveta.
+Za svakog pacijenta se pamti ime, prezime, jmbg, bolest od koje boluje, i u kom stanju se pacijent nalazi.

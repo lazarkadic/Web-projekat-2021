@@ -1,0 +1,125 @@
+.kontejner{
+    background-color: aqua;
+    min-width: 440px;
+    margin: 10px;
+}
+
+.kontForma{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: burlywood;
+}
+h3{
+    text-align: center;
+    margin: 0%;
+    margin-top: 10px;
+}
+
+.kontLabele{
+    flex-grow: 1;
+    justify-content: center; 
+}
+
+.kontDugmici{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around; 
+    margin: 10px;
+
+}
+
+.kontSobe{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background-color: darkred;
+}
+
+.kontejnerSoba{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 10px;
+    background-color: dodgerblue;
+}
+
+.kontFormaSoba{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kontFormaSobaLabele{
+    display: flex;
+    flex-grow: 3;
+    flex-basis: 150px;
+}
+
+.kontFormaSobaDugmici{
+    display: flex;
+    justify-content: right;
+    flex-grow: 1;
+}
+
+.sobaLab{
+    margin: 5px;
+}
+
+.kontKreveti{
+    display: flex;
+    flex-direction: column;
+    /* background-color: darkseagreen; */
+}
+
+.kontejnerPacijent{
+    display: flex;
+    justify-content: space-between;
+    background-color: goldenrod;
+    margin: 5px;
+}
+
+.dugmeDiv{
+    display: flex;
+}
+
+
+/* STIL SA W3SCHOOLS ZA MODALE */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close, .close1{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close, .close1:hover,
+  .close, .close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

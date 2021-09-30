@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="stil.css">
+      <title>Klinicki centar</title>
+      <meta charset="UTF-8"> 
+    </head>
+    <body>
+
+      <!--  KORSITIM MODALE SA W3SCHOOLS ZA FORME UMESTO NOVIH STRANICA JER MI SE CINI KAO BRZA OPCIJA -->
+
+
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Unesite potrebne vrednosti.</p>
+          <label>Broj soba: <label>
+            <input type="text" name="brs">
+            </br>
+            <label>Broj kreveta: <label>
+            <input type="text" name="brk">
+            </br>
+            <button type="button" name="submit">Submit</button> 
+        </div>
+      
+      </div>
+
+      <div id="myModal1" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close1">&times;</span>
+          <p>Unesite potrebne vrednosti.</p>
+          <label>Ime: <label>
+            <input type="text" name="im">
+            </br>
+            <label>Prezime: <label>
+            <input type="text" name="pr">
+            </br>
+            <label>JMBG: <label>
+            <input type="text" name="jm">
+            </br>
+            <label>Bolest: <label>
+            <input type="text" name="bo">
+            </br>
+            <label>Stanje: <label>
+            <select name="st" id="pet-select">
+                <option value="stabilno">stabilno</option>
+                <option value="upala">upala</option>
+                <option value="pogorsano">pogorsano</option>
+                <option value="prehlada">prehlada</option>
+                <option value="kriticno">kriticno</option>
+            </select>
+            </br>
+            <button type="button" name="submit1">Submit</button> 
+        </div>
+      
+      </div>
+
+        <script src="js/main.js" type="module"></script>
+    </body>
+</html>
